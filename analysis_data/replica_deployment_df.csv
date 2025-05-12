@@ -1,0 +1,13 @@
+value,function_name,node_name,replica_id
+deploy,python-pi,server_0,140191910902992
+startup,python-pi,server_0,140191910902992
+setup,python-pi,server_0,140191910902992
+finish,python-pi,server_0,140191910902992
+deploy,python-pi,server_0,140191910900640
+startup,python-pi,server_0,140191910900640
+setup,python-pi,server_0,140191910900640
+finish,python-pi,server_0,140191910900640
+deploy,resnet50-inference,server_0,140191910566064
+startup,resnet50-inference,server_0,140191910566064
+setup,resnet50-inference,server_0,140191910566064
+finish,resnet50-inference,server_0,140191910566064

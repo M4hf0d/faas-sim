@@ -1,0 +1,10 @@
+value,function_name,image,replica_id,node_name,successful
+queue,python-pi,python-pi-cpu,140191910902992,,
+queue,python-pi,python-pi-cpu,140191910900640,,
+start,python-pi,python-pi-cpu,140191910902992,,
+finish,python-pi,python-pi-cpu,140191910902992,server_0,True
+queue,resnet50-inference,resnet50-inference-gpu,140191910566064,,
+start,python-pi,python-pi-cpu,140191910900640,,
+finish,python-pi,python-pi-cpu,140191910900640,server_0,True
+start,resnet50-inference,resnet50-inference-gpu,140191910566064,,
+finish,resnet50-inference,resnet50-inference-gpu,140191910566064,server_0,True
