@@ -102,22 +102,32 @@ class ConstantBenchmark(BenchmarkBase):
         no_of_devices = len(env.topology.get_nodes())
 
         deployments[images.resnet50_inference_function].rps_threshold = 100
-        deployments[images.resnet50_inference_function].scale_max = int(0.7 * no_of_devices)
-        deployments[images.resnet50_inference_function].scale_factor = int(0.05 * no_of_devices)
+        deployments[images.resnet50_inference_function].scale_max = int(
+            0.7 * no_of_devices
+        )
+        deployments[images.resnet50_inference_function].scale_factor = int(
+            0.05 * no_of_devices
+        )
         deployments[images.resnet50_inference_function].rps_threshold_duration = 10
 
         deployments[images.mobilenet_inference_function].rps_threshold = 70
-        deployments[images.mobilenet_inference_function].scale_max = int(0.25 * no_of_devices)
+        deployments[images.mobilenet_inference_function].scale_max = int(
+            0.25 * no_of_devices
+        )
         deployments[images.mobilenet_inference_function].scale_factor = 5
         deployments[images.mobilenet_inference_function].rps_threshold_duration = 10
 
         deployments[images.speech_inference_function].rps_threshold = 40
-        deployments[images.speech_inference_function].scale_max = int(0.25 * no_of_devices)
+        deployments[images.speech_inference_function].scale_max = int(
+            0.25 * no_of_devices
+        )
         deployments[images.speech_inference_function].scale_factor = 5
         deployments[images.speech_inference_function].rps_threshold_duration = 15
 
         deployments[images.resnet50_preprocessing_function].rps_threshold = 40
-        deployments[images.resnet50_preprocessing_function].scale_max = no_of_devices / 4
+        deployments[images.resnet50_preprocessing_function].scale_max = (
+            no_of_devices / 4
+        )
         deployments[images.resnet50_preprocessing_function].scale_factor = 1
         deployments[images.resnet50_preprocessing_function].rps_threshold_duration = 15
 
