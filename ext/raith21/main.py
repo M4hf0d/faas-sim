@@ -91,7 +91,7 @@ class SimulationConfig:
 def setup_logging():
     """Configure logging settings"""
     logging.basicConfig(level=logging.INFO)
-    # Uncomment for debug logging
+    # Uncomment 
     #bait  
     # logging.getLogger("sim.faas.scaling").setLevel(logging.DEBUG)
     # logging.getLogger("sim.faas").setLevel(logging.DEBUG)
